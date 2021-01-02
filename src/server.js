@@ -40,16 +40,16 @@ app.use(
 
   connection(mysql, {
 
-    // host: 'mysql-15399-0.cloudclusters.net', //'localhost',
-    // user: 'admin',
-    // password: 'superadmin',
-    // port: 15399, //port mysql
-    // database: 'stmik'
-    host: 'localhost', //'localhost',
-    user: 'stmikadmin',
-    password: 'stmikadmin',
+    host: 'remotemysql.com', //'localhost',
+    user: 'yIhgRkuxvc',
+    password: 'vwL4zyoYb5',
     port: 3306, //port mysql
-    database: 'stmik'
+    database: 'yIhgRkuxvc'
+    // host: 'localhost', //'localhost',
+    // user: 'stmikadmin',
+    // password: 'stmikadmin',
+    // port: 3306, //port mysql
+    // database: 'stmik'
 
   }, 'pool') //or single
 
